@@ -1,0 +1,5 @@
+cron:
+- description: "daily check"
+  url: /daily
+  schedule: every day 10:00
+  timezone: Europe/Berlin

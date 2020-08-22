@@ -1,0 +1,12 @@
+runtime: python37
+
+env_variables:
+  TELEGRAM_TOKEN_SECRET_ID: "telegram_token"
+  PROJECT_ID: 1041365635044
+  BOT_NAME: "RusMidPassBot"
+
+handlers:
+- url: /.*
+  secure: always
+  redirect_http_response_code: 301
+  script: auto
